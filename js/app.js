@@ -15,7 +15,7 @@ function handleSubmit(arg){
 
 function paintGreetings(){
     const username = localStorage.getItem(USERNAME_KEY);
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `'${username}' Have a good day!`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
 }
 

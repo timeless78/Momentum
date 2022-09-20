@@ -25,12 +25,9 @@ body{
     top:0;
     z-index: -5;
     filter:brightness(50%);
-    height:100vh;
-    width:100vh;
+    height:100%;
+    width:100%;
     object-fit:cover;
-
-    display:block;
-    margin:0px auto;
 }
 #login-form{
     text-align: center;
@@ -89,7 +86,7 @@ body{
 #greeting{
     margin:0 auto;
     text-align: center;
-    color:black;
+    color:beige;
     -webkit-text-stroke: 1px rgba(65, 65, 65, 0.678);
     font-weight: 400;
     font-size:2rem;
@@ -161,13 +158,13 @@ body{
     margin-left: 36px;
     font-size:1.5rem;
     font-weight: 200;
-    color:darkred;
+    color:darkgrey;
 }
 #weather{
     position:fixed;
     top:20px;
     right:36px;
-    color:midnightblue;
+    color:blanchedalmond;
     font-size:1.4rem;
     font-weight: 700;
 }
